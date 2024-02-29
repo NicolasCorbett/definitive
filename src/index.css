@@ -1,3 +1,7 @@
+*{
+  cursor: none;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +9,858 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+p{
+  color: #ef5959;
+  font-family: "old-standard", serif;
+font-weight: 700;
+font-style: normal;
+font-size: 14pt;
+}
+
+a{
+  color: #ef5959;
+  font-family: "cabazon", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14pt;
+  transition: ease 0.5s;
+}
+
+ul{
+  list-style-type: none;
+  margin-left: -35px;
+  margin-bottom: 40px;
+}
+
+.listwrap{
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+li{
+  color: #ef5959;
+  font-family: "cabazon", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 4px;
+  font-size: 18pt;
+  margin-top: 5px;
+}
+
+li:hover{
+  color: #399688;
+}
+
+/* ______DIGITALPRINT HOVERSHIZZLE_____ */
+
+.hiddendgtl{
+  position: absolute;
+  top: -100vh;
+  left: -42vw; 
+  height: 100vh;
+  width: 42vw;
+  opacity: 0;
+}
+
+
+.hvrdgtl:hover + .hiddendgtl{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.dgtlgif{
+  background-image: url(./assets/digitalprint.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 20vw;
+  margin-right: 6%;
+  margin-top: -10%;
+}
+
+
+/* ______DIGITALPRINT HOVERSHIZZLE_____ */
+
+
+
+/* ______SCREENPRINT HOVERSHIZZLE_____ */
+
+.hiddenscreen{
+  position: absolute;
+  top: -100vh;
+  left: -42vw;
+  height: 100vh;
+  width: 42vw;
+  opacity: 0;
+}
+
+.hvrscreen:hover + .hiddenscreen{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.screengif{
+  background-image: url(./assets/screenprint_1.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 20vw;
+  margin-right: 6%;
+  margin-top: -10%;
+}
+
+/* ______SCREENPRINT HOVERSHIZZLE_____ */
+
+
+
+/* ______MONOPRINT HOVERSHIZZLE_____ */
+
+.hiddenmono{
+  position: absolute;
+  top: -100vh;
+  left: -42vw;
+  height: 100vh;
+  width: 42vw;
+  opacity: 0;
+}
+
+.hvrmono:hover + .hiddenmono{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.monogif{
+  background-image: url(./assets/Monotype.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 20vw;
+  margin-right: 6%;
+  margin-top: -10%;
+}
+
+/* ______MONOPRINT HOVERSHIZZLE_____ */
+
+/* ______actionPRINT HOVERSHIZZLE_____ */
+
+.hiddenaction{
+  position: absolute;
+  top: -100vh;
+  left: -42vw;
+  height: 100vh;
+  width: 42vw;
+  opacity: 0;
+}
+
+.hvraction:hover + .hiddenaction{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.actiongif{
+  background-image: url(./assets/handeling.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 20vw;
+  margin-right: 6%;
+  margin-top: -10%;
+}
+
+/* ______actionPRINT HOVERSHIZZLE_____ */
+
+
+/* ______eckPRINT HOVERSHIZZLE_____ */
+
+.hiddeneck{
+  position: absolute;
+  top: -100vh;
+  left: -42vw;
+  height: 100vh;
+  width: 42vw;
+  opacity: 0;
+}
+
+.hvreck:hover + .hiddeneck{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.eckgif{
+  background-image: url(./assets/specimen.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 20vw;
+  margin-right: 6%;
+  margin-top: -10%;
+}
+
+/* ______eckPRINT HOVERSHIZZLE_____ */
+
+
+
+/* ______CRAPRINT HOVERSHIZZLE_____ */
+
+.hiddenCRA{
+  position: absolute;
+  top: -100vh;
+  left: -42vw;
+  height: 100vh;
+  width: 42vw;
+  opacity: 0;
+}
+
+.hvrCRA:hover + .hiddenCRA{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CRAgif{
+  background-image: url(./assets/id.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 20vw;
+  margin-right: 6%;
+  margin-top: -10%;
+}
+
+/* ______CRAPRINT HOVERSHIZZLE_____ */
+
+
+/* ______DIGITAL HOVERSHIZZLE_____ */
+
+.hiddenkaasgif{
+  position: absolute;
+  top: -100vh;
+  left: -42vw;
+  height: 100vh;
+  width: 42vw;
+  opacity: 0;
+}
+
+.hvrkaasgif:hover + .hiddenkaasgif{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kaasgifgif{
+  background-image: url(./assets/CheeseRollingSHMALL_1.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 20vw;
+  margin-right: 6%;
+  margin-top: -10%;
+}
+
+/* ______DIGITAL HOVERSHIZZLE_____ */
+
+/* ______DIGITAL HOVERSHIZZLE_____ */
+
+.hiddengame{
+  position: absolute;
+  top: -100vh;
+  left: -42vw;
+  height: 100vh;
+  width: 42vw;
+  opacity: 0;
+}
+
+.hvrgame:hover + .hiddengame{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gamegif{
+  background-image: url(./assets/DD.PNG);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 20vw;
+  margin-right: 6%;
+  margin-top: -10%;
+}
+
+/* ______DIGITAL HOVERSHIZZLE_____ */
+
+
+/* ______DIGITAL HOVERSHIZZLE_____ */
+
+.hiddenOXO{
+  position: absolute;
+  top: -100vh;
+  left: -42vw;
+  height: 100vh;
+  width: 42vw;
+  opacity: 0;
+}
+
+.hvrOXO:hover + .hiddenOXO{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.OXOgif{
+  background-image: url(./assets/bnf.PNG);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 20vw;
+  margin-right: 6%;
+  margin-top: -10%;
+}
+
+/* ______DIGITAL HOVERSHIZZLE_____ */
+
+
+/* ______DIGITAL HOVERSHIZZLE_____ */
+
+.hiddenlimit{
+  position: absolute;
+  top: -100vh;
+  left: -42vw;
+  height: 100vh;
+  width: 42vw;
+  opacity: 0;
+}
+
+.hvrlimit:hover + .hiddenlimit{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.limitgif{
+  background-image: url(./assets/sd.PNG);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 20vw;
+  margin-right: 6%;
+  margin-top: -10%;
+}
+
+/* ______DIGITAL HOVERSHIZZLE_____ */
+
+
+/* ______DIGITAL HOVERSHIZZLE_____ */
+
+.hiddentype1{
+  position: absolute;
+  top: -100vh;
+  left: -42vw;
+  height: 100vh;
+  width: 42vw;
+  opacity: 0;
+}
+
+.hvrtype1:hover + .hiddentype1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.type1gif{
+  background-image: url(./assets/eckie.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 20vw;
+  margin-right: 6%;
+  margin-top: -10%;
+}
+
+/* ______DIGITAL HOVERSHIZZLE_____ */
+
+/* ______DIGITAL HOVERSHIZZLE_____ */
+
+.hiddentype2{
+  position: absolute;
+  top: -100vh;
+  left: -42vw;
+  height: 100vh;
+  width: 42vw;
+  opacity: 0;
+}
+
+.hvrtype2:hover + .hiddentype2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.type2gif{
+  background-image: url(./assets/fang.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 20vw;
+  margin-right: 6%;
+  margin-top: -10%;
+}
+
+/* ______DIGITAL HOVERSHIZZLE_____ */
+
+/* ______ARTS HOVERSHIZZLE_____ */
+
+.hiddenTRT{
+  position: absolute;
+  top: -100vh;
+  left: -42vw;
+  height: 100vh;
+  width: 42vw;
+  opacity: 0;
+}
+
+.hvrTRT:hover + .hiddenTRT{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.TRTgif{
+  background-image: url(./assets/papertry2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 20vw;
+  margin-right: 6%;
+  margin-top: -10%;
+}
+
+/* ______ARTS HOVERSHIZZLE_____ */
+
+/* ______ARTS HOVERSHIZZLE_____ */
+
+.hiddenomgeving{
+  position: absolute;
+  top: -100vh;
+  left: -42vw;
+  height: 100vh;
+  width: 42vw;
+  opacity: 0;
+}
+
+.hvromgeving:hover + .hiddenomgeving{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.omgevinggif{
+  background-image: url(./assets/papertry2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 20vw;
+  margin-right: 6%;
+  margin-top: -10%;
+}
+
+/* ______ARTS HOVERSHIZZLE_____ */
+
+/* ______ARTS HOVERSHIZZLE_____ */
+
+.hiddenbeeld{
+  position: absolute;
+  top: -100vh;
+  left: -42vw;
+  height: 100vh;
+  width: 42vw;
+  opacity: 0;
+}
+
+.hvrbeeld:hover + .hiddenbeeld{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.beeldgif{
+  background-image: url(./assets/papertry2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 20vw;
+  margin-right: 6%;
+  margin-top: -10%;
+}
+
+/* ______ARTS HOVERSHIZZLE_____ */
+
+/* ______ARTS HOVERSHIZZLE_____ */
+
+.hiddenlichaam{
+  position: absolute;
+  top: -100vh;
+  left: -42vw;
+  height: 100vh;
+  width: 42vw;
+  opacity: 0;
+}
+
+.hvrlichaam:hover + .hiddenlichaam{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lichaamgif{
+  background-image: url(./assets/lichaam.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 20vw;
+  margin-right: 6%;
+  margin-top: -10%;
+}
+
+/* ______ARTS HOVERSHIZZLE_____ */
+
+.hiddenCV{
+  position: absolute;
+  top: -100vh;
+  left: -42vw;
+  height: 100vh;
+  width: 42vw;
+  opacity: 0;
+}
+
+.hvrCV:hover + .hiddenCV{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#download{
+  color: #ef5959;
+  font-family: "cabazon", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 4px;
+  font-size: 18pt;
+  margin-top: 5px;
+}
+
+#download:hover{
+  color: #399688;
+}
+
+.CVgif{
+  background-image: url(./assets/CV.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 20vw;
+  margin-right: 6%;
+  margin-top: -10%;
+}
+
+.side{
+  height: 60%;
+  width: 10vw;
+  margin-left: 5%;
+}
+
+.side>p{
+font-size: 12pt;
+}
+
+h1{
+  color: #ef5959;
+  font-family: "cabazon", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 130pt;
+  margin: -17px 10px;
+}
+
+#corbett{
+  display: inline-block;
+}
+
+h1:not(:first-child){
+  
+  margin: -60px 10px;
+}
+
+.diss{
+  transition: ease-in-out 1s;
+}
+
+.diss:hover{
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+}
+
+h2{
+  color: #ef5959;
+  font-family: "cabazon", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14pt;
+  margin: 2px 5px;
+}
+
+a:hover{
+  text-decoration: underline;
+  transition: ease 0.5s;
+}
+
+nav{
+  width: 40%;
+  margin: 6% 1%;
+}
+.navlink{
+  font-size: 26pt;
+  display: block;
+  transition: ease-in-out 0.1s;
+}
+
+.navlink:hover{
+  text-decoration: none;
+  color: #399688;
+  transition: ease-in-out 0.2s;
+}
+
+.navwrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.brood{
+  margin-right: 7%;
+  margin-top: 6%;
+  text-align: justify;
+  text-justify: inter-word;
+  width: 300px;
+  line-height: 1.15;
+}
+
+.maincontainer{
+  margin: 2% auto;
+  width: 1100px;
+  height: 610px;
+ border: #ef5959 3px solid;
+ display: flex;
+ flex-direction: column;
+}
+
+
+.firstrow{
+  display: flex;
+  flex-direction: row;
+  height: 4.5%;
+}
+
+
+.r1{
+  border-bottom: 3px solid #ef5959;
+  border-right: 3px solid #ef5959;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.homebtndiv{
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.scndrow{
+  display: flex;
+  flex-direction: row;
+  height: 40%;
+}
+
+.r2{
+  height: 100%;
+  border-bottom: 3px solid #ef5959;
+  border-right: 3px solid #ef5959;
+}
+
+.thrdrow{
+  display: flex;
+  flex-direction: row;
+  height: 55.5%;
+}
+
+.r3{
+  height: 100%;
+  border-bottom: none;
+  border-right: 3px solid #ef5959;
+}
+
+.r3bis1{
+  height: 91%;
+  width: 100%;
+  border-bottom: #ef5959 3px solid;
+}
+
+.r4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.r4>a{
+  margin: 2px 5px;
+}
+
+.c1{
+  width: 1.7%;
+}
+
+.c2{
+  width: 44%;
+}
+
+.c3{
+  width: 53%;
+}
+
+#linkedin{
+  margin-right: 5px;
+}
+
+#homebtn{
+  margin-left: 5px;
+}
+
+.c4{
+  width: 1.8%;
+  border-right: none;
+}
+
+.bg{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -2;
+  transform: translate(-50%, -53%);
+  width: 1000px;
+  height: 500px;
+  background-image: url(./assets/papertry2.jpg);
+  background-size: cover;
+  background-position: left bottom;
+}
+
+/*
+
+red ef5959
+
+green 399688
+
+font-family: "old-standard", serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: "old-standard", serif;
+font-weight: 400;
+font-style: italic;
+
+font-family: "old-standard", serif;
+font-weight: 700;
+font-style: normal;
+
+*/

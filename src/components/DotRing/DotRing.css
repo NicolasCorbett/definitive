@@ -1,0 +1,53 @@
+.ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  border: 2px solid rgba(235, 42, 42, 0.808);
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  -webkit-transition-duration: 100ms;
+  transition-duration: 100ms;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  will-change: width, height, transform, border;
+  z-index: 999;
+  pointer-events: none;
+  }
+  .gif {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 250px;
+
+    transform: translate(0%, -25%);
+    -webkit-transition-duration: 300ms;
+    transition-duration: 300ms;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    will-change: width, height, transform, border;
+    z-index: -1;
+    pointer-events: none;
+    background-image: url('../../assets/squareSUPAHFAST_1.gif');
+    background-size: cover;
+    background-position: left top;
+  }
+  
+  .dot {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(241, 52, 52);
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    pointer-events: none;
+    -webkit-transition-duration: 100ms;
+    transition-duration: 100ms;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }

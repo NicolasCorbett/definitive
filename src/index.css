@@ -770,6 +770,18 @@ nav{
   line-height: 1.15;
 }
 
+.maincontainerr{
+  position: absolute;
+  transform: translate(-50%, -51%);
+  top: 50%;
+  left: 50%;
+  width: 1100px;
+  height: 610px;
+ border: #ef5959 3px solid;
+ display: flex;
+ flex-direction: column;
+}
+
 .maincontainer{
   margin: 2% auto;
   width: 1100px;

@@ -72,7 +72,7 @@ export const Print = () => {
                                     </div>
                                     <div className="monoprint">
                                         <li className='hvrmono'>- Monotype prints & publication</li>
-                                        <div className='hiddenmono'>
+                                        <div className='hiddenmono haha'>
                                             <div className='side'>
                                                 <p style={{ fontWeight: '400' }}>Prints made from analog prepared compositions
                                                     on a monotype press</p>
@@ -82,7 +82,7 @@ export const Print = () => {
                                     </div>
                                     <div className="actionprint">
                                         <li className='hvraction'>- "The Action", eight page booklet (Riso)</li>
-                                        <div className='hiddenaction'>
+                                        <div className='hiddenaction haha'>
                                             <div className='side'>
                                                 <p style={{ fontWeight: '400' }}>"The Action" is an eight page
                                                     completely risoprinted publication explaining an action solely with
@@ -95,7 +95,7 @@ export const Print = () => {
                                     </div>
                                     <div className="eckprint">
                                         <li className='hvreck'>- "NotSoEckmannSchrift", typespecimen (Riso/Screen)</li>
-                                        <div className='hiddeneck'>
+                                        <div className='hiddeneck haha'>
                                             <div className='side'>
                                                 <p style={{ fontWeight: '400' }}>Typespecimen of my own typeface "NotSoEckmannSchrift", <br /> <br /> guided by,
                                                     but counter to expectations, not based on renowned typographer Otto Eckmann's own schrift.</p>
@@ -105,7 +105,7 @@ export const Print = () => {
                                     </div>
                                     <div className="CRAprint">
                                         <li className='hvrCRA'>- "Cheese Rolling Association", full identity print set</li>
-                                        <div className='hiddenCRA'>
+                                        <div className='hiddenCRA haha'>
                                             <div className='side'>
                                                 <p style={{ fontWeight: '400' }}>Full identity design made for a Cheeserolling club.
                                                     A violent and old sport found in Gloucester, England. Identity includes; <br /><br />

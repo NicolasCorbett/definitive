@@ -108,15 +108,17 @@ li:hover{
   top: -100vh;
   left: -42vw; 
   height: 100vh;
-  width: 42vw;
+  width: 40vw;
   opacity: 0;
 }
 
 
+
+
 .hvrdgtl:hover + .hiddendgtl{
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -5vh;
+  left: -13vw;
   opacity: 100%;
   display: flex;
   align-items: center;
@@ -152,8 +154,8 @@ li:hover{
 
 .hvrscreen:hover + .hiddenscreen{
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -5vh;
+  left: -13vw;
   opacity: 100%;
   display: flex;
   align-items: center;
@@ -187,8 +189,8 @@ li:hover{
 
 .hvrmono:hover + .hiddenmono{
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -5vh;
+  left: -13vw;
   opacity: 100%;
   display: flex;
   align-items: center;
@@ -220,8 +222,8 @@ li:hover{
 
 .hvraction:hover + .hiddenaction{
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -5vh;
+  left: -13vw;
   opacity: 100%;
   display: flex;
   align-items: center;
@@ -254,8 +256,8 @@ li:hover{
 
 .hvreck:hover + .hiddeneck{
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -5vh;
+  left: -13vw;
   opacity: 100%;
   display: flex;
   align-items: center;
@@ -289,8 +291,8 @@ li:hover{
 
 .hvrCRA:hover + .hiddenCRA{
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -5vh;
+  left: -13vw;
   opacity: 100%;
   display: flex;
   align-items: center;
@@ -323,8 +325,8 @@ li:hover{
 
 .hvrkaasgif:hover + .hiddenkaasgif{
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -5vh;
+  left: -13vw;
   opacity: 100%;
   display: flex;
   align-items: center;
@@ -356,8 +358,8 @@ li:hover{
 
 .hvrgame:hover + .hiddengame{
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -5vh;
+  left: -13vw;
   opacity: 100%;
   display: flex;
   align-items: center;
@@ -390,8 +392,8 @@ li:hover{
 
 .hvrOXO:hover + .hiddenOXO{
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -5vh;
+  left: -13vw;
   opacity: 100%;
   display: flex;
   align-items: center;
@@ -424,8 +426,8 @@ li:hover{
 
 .hvrlimit:hover + .hiddenlimit{
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -5vh;
+  left: -13vw;
   opacity: 100%;
   display: flex;
   align-items: center;
@@ -458,8 +460,8 @@ li:hover{
 
 .hvrtype1:hover + .hiddentype1{
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -5vh;
+  left: -13vw;
   opacity: 100%;
   display: flex;
   align-items: center;
@@ -491,8 +493,8 @@ li:hover{
 
 .hvrtype2:hover + .hiddentype2{
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -5vh;
+  left: -13vw;
   opacity: 100%;
   display: flex;
   align-items: center;
@@ -524,8 +526,8 @@ li:hover{
 
 .hvrTRT:hover + .hiddenTRT{
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -5vh;
+  left: -13vw;
   opacity: 100%;
   display: flex;
   align-items: center;
@@ -557,8 +559,8 @@ li:hover{
 
 .hvromgeving:hover + .hiddenomgeving{
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -5vh;
+  left: -13vw;
   opacity: 100%;
   display: flex;
   align-items: center;
@@ -590,8 +592,8 @@ li:hover{
 
 .hvrbeeld:hover + .hiddenbeeld{
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -5vh;
+  left: -13vw;
   opacity: 100%;
   display: flex;
   align-items: center;
@@ -623,8 +625,8 @@ li:hover{
 
 .hvrlichaam:hover + .hiddenlichaam{
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -5vh;
+  left: -13vw;
   opacity: 100%;
   display: flex;
   align-items: center;
@@ -654,8 +656,8 @@ li:hover{
 
 .hvrCV:hover + .hiddenCV{
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -5vh;
+  left: -13vw;
   opacity: 100%;
   display: flex;
   align-items: center;

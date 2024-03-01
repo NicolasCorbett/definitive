@@ -8,7 +8,7 @@ const Main = () => {
             <div className="mobile">
                 <p>Uh oh! this is a desktop website, <br /> please use a computer.</p>
             </div>
-            <div id='main' className='maincontainerr'>
+            <div id='main' className='maincontainer'>
                 <div className="firstrow">
                     <div className="r1 c1"></div>
                     <div className="r1 c2"></div>

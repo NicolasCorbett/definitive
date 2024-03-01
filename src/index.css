@@ -770,7 +770,7 @@ nav{
   line-height: 1.15;
 }
 
-.maincontainerr{
+.maincontainer{
   position: absolute;
   transform: translate(-50%, -51%);
   top: 50%;
@@ -782,14 +782,14 @@ nav{
  flex-direction: column;
 }
 
-.maincontainer{
+/* .maincontainer{
   margin: 2% auto;
   width: 1100px;
   height: 610px;
  border: #ef5959 3px solid;
  display: flex;
  flex-direction: column;
-}
+} */
 
 
 .firstrow{

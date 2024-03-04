@@ -43,7 +43,7 @@ export const Resume = () => {
                             <div className="listwrap">
                                 <ul>
                                     <div className="cv">
-                                        <a id='download' className='hvrCV' href="../assets/CV-color.pdf" download>- Download pdf version</a>
+                                        <a id='download' className='hvrCV' href="../assets/CV-color.pdf" download="CV-Nicolas-Corbett">- Download pdf version</a>
                                         <div className='hiddenCV'>
                                             <div className='side'>
                                                 <p style={{ fontWeight: '400' }}></p>

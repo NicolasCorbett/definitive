@@ -2,6 +2,15 @@ import React from 'react'
 import DotRing2 from '../components/DotRing/DotRing2'
 
 export const Resume = () => {
+    // const onButtonClick = () => {
+    //     const pdfUrl = "../assets/CV-color.pdf";
+    //     const link = document.createElement("a");
+    //     link.href = pdfUrl;
+    //     link.download = "CV-Nicolas-Corbett"; // specify the filename
+    //     document.body.appendChild(link);
+    //     link.click();
+    //     document.body.removeChild(link);
+    // };
     return (
         <div>
             <div className='maincontainer'>
@@ -44,6 +53,7 @@ export const Resume = () => {
                                 <ul>
                                     <div className="cv">
                                         <a id='download' className='hvrCV' href="../assets/CV-color.pdf" download="CV-Nicolas-Corbett">- Download pdf version</a>
+                                        {/* <button onClick={onButtonClick} id='download' className='hvrCV' href="">- Download pdf version</button> */}
                                         <div className='hiddenCV'>
                                             <div className='side'>
                                                 <p style={{ fontWeight: '400' }}></p>
